@@ -1,10 +1,11 @@
-import Test from "@/components/Test";
-
+import Header from "@/components/Header";
 
 function Page() {
-  return <div>
-    <Test />
-  </div>
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
 
 export default Page;
